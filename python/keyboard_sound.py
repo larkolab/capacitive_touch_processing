@@ -76,14 +76,18 @@ import uinput
 
 # Define mapping of capacitive touch pin presses to keyboard button presses.
 KEY_MAPPING = { 
-                0: uinput.KEY_UP,    # Each line here should define a dict entry
-                1: uinput.KEY_DOWN,  # that maps the capacitive touch input number
-                2: uinput.KEY_LEFT,  # to an appropriate key press.
-                3: uinput.KEY_RIGHT, #
-                4: uinput.KEY_B,     # For reference the list of possible uinput.KEY_*
-                5: uinput.KEY_A,     # values you can specify is defined in linux/input.h:
-                6: uinput.KEY_ENTER, # http://www.cs.fsu.edu/~baker/devices/lxr/http/source/linux/include/linux/input.h?v=2.6.11.8
-                7: uinput.KEY_SPACE, #
+                0: uinput.KEY_0,	# Yellow
+                1: uinput.KEY_1,  	# Green
+                2: uinput.KEY_2,  	# Red
+                3: uinput.KEY_3, 	#
+                4: uinput.KEY_B,     	#
+                5: uinput.KEY_A,     	#
+                6: uinput.KEY_ENTER, 	#
+                7: uinput.KEY_SPACE, 	# Black
+                8: uinput.KEY_UP, 	#
+                9: uinput.KEY_DOWN, 	#
+                10: uinput.KEY_LEFT, 	#
+                11: uinput.KEY_RIGHT, 	#
               }                      # Make sure a cap touch input is defined only
                                      # once or else the program will fail to run!
 
